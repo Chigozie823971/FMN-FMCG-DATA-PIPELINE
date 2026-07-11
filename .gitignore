@@ -1,0 +1,30 @@
+# --- Python Specifics ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- IDE and Environment Settings ---
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- dbt Specifics ---
+dbt_project/logs/
+dbt_project/target/
+dbt_project/dbt_packages/
+modules/
+
+# --- Operating System Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Local Data Files ---
+data/
+*.xlsx
+*.csv

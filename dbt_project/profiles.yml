@@ -1,0 +1,13 @@
+# profiles.yml
+fmcg_pipeline_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost          # 'localhost' works when running dbt from your Windows host
+      port: 5432               # The internal database port exposed to your machine
+      user: postgres
+      pass: postgres
+      dbname: fmcg_analytics
+      schema: analytics        # This is the target schema where your Star Schema will be created
+      threads: 4

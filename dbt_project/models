@@ -1,0 +1,3 @@
+dim_products.sql
+dim_customers.sql
+fact_sales.sql
