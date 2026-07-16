@@ -25,6 +25,6 @@ Desktop.ini
 .DS_Store
 
 # --- Local Data Files ---
-data/
+**/data/
 *.xlsx
 *.csv
